@@ -1,3 +1,6 @@
+import sys
+
+
 from setuptools import setup, Extension
 from Cython.Build import cythonize
 
@@ -17,9 +20,13 @@ ext_modules = [
     ),
 ]
 
-setup(
-    name=pkg_name,
-    version=VERSION,
-    install_requires=install_requires,
-    ext_modules=cythonize(ext_modules, language_level="3"),
-)
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        sys.argv.append("install")
+
+    setup(
+        name=pkg_name,
+        version=VERSION,
+        install_requires=install_requires,
+        ext_modules=cythonize(ext_modules, language_level="3"),
+    )
