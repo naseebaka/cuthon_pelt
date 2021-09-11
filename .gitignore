@@ -1,0 +1,11 @@
+/build/lib.win-amd64-3.8/cython_pelt/pelt.cp38-win_amd64.pyd
+/build/temp.win-amd64-3.8/Release/cython_pelt/pelt.cp38-win_amd64.exp
+/build/temp.win-amd64-3.8/Release/cython_pelt/pelt.cp38-win_amd64.lib
+/build/temp.win-amd64-3.8/Release/cython_pelt/pelt.obj
+/cython_pelt.egg-info/PKG-INFO
+/cython_pelt.egg-info/SOURCES.txt
+/cython_pelt.egg-info/dependency_links.txt
+/cython_pelt.egg-info/requires.txt
+/cython_pelt.egg-info/top_level.txt
+/cython_pelt/pelt.c
+/dist/cython_pelt-0.1.0-py3.8-win-amd64.egg
