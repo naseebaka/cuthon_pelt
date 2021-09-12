@@ -1,0 +1,11 @@
+To test the performance comparison between rupture and the modified module,
+
+Update the parameters in petl_demo_test.py, keep the python module (Win-64) in same directory and run petl_demo_test.py
+
+First the test code imports rupture and runs the pelt test, prints the timings and shows the graph
+
+When we close the graph, the code uses the local python module and does the same operations and prints the timings
+
+
+Uses same signal for both cases
+Compares the output for equality in both cases
